@@ -22,6 +22,7 @@ public class AccountPage {
 		elementUtils = new ElementUtils(driver);
 	}
 	
+	//account page
 	public boolean displayStatusOfEditYourAccountInformationOption() {
 		return elementUtils.displayStatusOfElement(editYourAccountInformationOption, CommonUtils.EXPLICIT_WAIT_BASIC_TIME);
 	}
