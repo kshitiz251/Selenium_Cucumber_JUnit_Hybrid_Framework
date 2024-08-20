@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="runner.TestRunner" time="57.194" tests="12" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="Login Functionality" time="26.61" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\kshit\AppData\Local\Temp\surefire1920300773994776072\surefirebooter-20240820130548296_3.jar C:\Users\kshit\AppData\Local\Temp\surefire1920300773994776072 2024-08-20T13-05-48_128-jvmRun1 surefire-20240820130548296_1tmp surefire_0-20240820130548296_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\kshit\AppData\Local\Temp\surefire12149895111258627471\surefirebooter-20240820130851011_3.jar C:\Users\kshit\AppData\Local\Temp\surefire12149895111258627471 2024-08-20T13-08-50_803-jvmRun1 surefire-20240820130851011_1tmp surefire_0-20240820130851011_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\Selenium_Cucumber_TestNG_Hybrid\TutorialNinjaCucumberTestNG\target\test-classes;D:\Selenium_Cucumber_TestNG_Hybrid\TutorialNinjaCucumberTestNG\target\classes;C:\Users\kshit\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\kshit\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\kshit\.m2\repository\org\seleniumhq\selenium\selenium-java\4.23.1\selenium-java-4.23.1.jar;C:\Users\kshit\.m2\repository\org\seleniumhq\selenium\selenium-api\4.23.1\selenium-api-4.23.1.jar;C:\Users\kshit\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.23.1\selenium-chrome-driver-4.23.1.jar;C:\Users\kshit\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\kshit\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.23.1\selenium-chromium-driver-4.23.1.jar;C:\Users\kshit\.m2\repository\org\seleniumhq\selenium\selenium-json\4.23.1\selenium-json-4.23.1.jar;C:\Users\kshit\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.23.1\selenium-manager-4.23.1.jar;C:\Users\kshit\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v125\4.23.1\selenium-devtools-v125-4.23.1.jar;C:\Users\kshit\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v126\4.23.1\selenium-devtools-v126-4.23.1.jar;C:\Users\kshit\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v127\4.23.1\selenium-devtools-v127-4.23.1.jar;C:\Users\kshit\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.23.1\selenium-devtools-v85-4.23.1.jar;C:\Users\kshit\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.23.1\selenium-edge-driver-4.23.1.jar;C:\Users\kshit\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.23.1\selenium-firefox-driver-4.23.1.jar;C:\Users\kshit\.m2\repository\org\seleniumhq\selenium\selenium-http\4.23.1\selenium-http-4.23.1.jar;C:\Users\kshit\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\kshit\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.23.1\selenium-ie-driver-4.23.1.jar;C:\Users\kshit\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.23.1\selenium-remote-driver-4.23.1.jar;C:\Users\kshit\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\kshit\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\kshit\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\kshit\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\kshit\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\kshit\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\kshit\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\kshit\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\kshit\.m2\repository\io\opentelemetry\opentelemetry-api\1.40.0\opentelemetry-api-1.40.0.jar;C:\Users\kshit\.m2\repository\io\opentelemetry\opentelemetry-context\1.40.0\opentelemetry-context-1.40.0.jar;C:\Users\kshit\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.40.0\opentelemetry-exporter-logging-1.40.0.jar;C:\Users\kshit\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.40.0\opentelemetry-sdk-common-1.40.0.jar;C:\Users\kshit\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.40.0\opentelemetry-sdk-extension-autoconfigure-spi-1.40.0.jar;C:\Users\kshit\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.40.0\opentelemetry-sdk-extension-autoconfigure-1.40.0.jar;C:\Users\kshit\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.40.0-alpha\opentelemetry-api-incubator-1.40.0-alpha.jar;C:\Users\kshit\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.40.0\opentelemetry-sdk-trace-1.40.0.jar;C:\Users\kshit\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.40.0\opentelemetry-sdk-1.40.0.jar;C:\Users\kshit\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.40.0\opentelemetry-sdk-metrics-1.40.0.jar;C:\Users\kshit\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.40.0\opentelemetry-sdk-logs-1.40.0.jar;C:\Users\kshit\.m2\repository\net\bytebuddy\byte-buddy\1.14.18\byte-buddy-1.14.18.jar;C:\Users\kshit\.m2\repository\org\seleniumhq\selenium\selenium-os\4.23.1\selenium-os-4.23.1.jar;C:\Users\kshit\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\kshit\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.23.1\selenium-safari-driver-4.23.1.jar;C:\Users\kshit\.m2\repository\org\seleniumhq\selenium\selenium-support\4.23.1\selenium-support-4.23.1.jar;C:\Users\kshit\.m2\repository\io\cucumber\cucumber-java\7.18.1\cucumber-java-7.18.1.jar;C:\Users\kshit\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\kshit\.m2\repository\io\cucumber\cucumber-junit\7.18.1\cucumber-junit-7.18.1.jar;C:\Users\kshit\.m2\repository\io\cucumber\cucumber-core\7.18.1\cucumber-core-7.18.1.jar;C:\Users\kshit\.m2\repository\io\cucumber\cucumber-gherkin\7.18.1\cucumber-gherkin-7.18.1.jar;C:\Users\kshit\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.18.1\cucumber-gherkin-messages-7.18.1.jar;C:\Users\kshit\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\kshit\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\kshit\.m2\repository\io\cucumber\testng-xml-formatter\0.2.0\testng-xml-formatter-0.2.0.jar;C:\Users\kshit\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\kshit\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\kshit\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\kshit\.m2\repository\io\cucumber\datatable\7.18.1\datatable-7.18.1.jar;C:\Users\kshit\.m2\repository\io\cucumber\cucumber-plugin\7.18.1\cucumber-plugin-7.18.1.jar;C:\Users\kshit\.m2\repository\io\cucumber\docstring\7.18.1\docstring-7.18.1.jar;C:\Users\kshit\.m2\repository\io\cucumber\html-formatter\21.4.1\html-formatter-21.4.1.jar;C:\Users\kshit\.m2\repository\io\cucumber\junit-xml-formatter\0.5.0\junit-xml-formatter-0.5.0.jar;C:\Users\kshit\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\kshit\AppData\Local\Temp\surefire1920300773994776072\surefirebooter-20240820130548296_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\kshit\AppData\Local\Temp\surefire12149895111258627471\surefirebooter-20240820130851011_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.4+8-LTS-274"/>
@@ -59,7 +59,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="Login with valid credentials" classname="Login Functionality" time="5.303">
+  <testcase name="Login with valid credentials" classname="Login Functionality" time="7.826">
     <system-out><![CDATA[
 @all
 Scenario Outline: Login with valid credentials                                       &amp#27;[90m# src/test/resourcess/features/Login.feature:14&amp#27;[0m
@@ -70,7 +70,7 @@ Scenario Outline: Login with valid credentials                                  
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should get successfully logged in&amp#27;[0m                                        &amp#27;[90m# stepdefinitions.Login.User_should_get_successfully_logged_in()&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Login with invalid credentials" classname="Login Functionality" time="4.099">
+  <testcase name="Login with invalid credentials" classname="Login Functionality" time="6.57">
     <system-out><![CDATA[
 @all
 Scenario Outline: Login with invalid credentials                                        &amp#27;[90m# src/test/resourcess/features/Login.feature:23&amp#27;[0m
@@ -81,7 +81,7 @@ Scenario Outline: Login with invalid credentials                                
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should get a proper warning message about credentails mismatch&amp#27;[0m              &amp#27;[90m# stepdefinitions.Login.User_should_get_a_proper_warning_message_about_credentails_mismatch()&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Login with valid email and invalid password" classname="Login Functionality" time="4.105">
+  <testcase name="Login with valid email and invalid password" classname="Login Functionality" time="4.212">
     <system-out><![CDATA[
 @all
 Scenario Outline: Login with valid email and invalid password                      &amp#27;[90m# src/test/resourcess/features/Login.feature:33&amp#27;[0m
@@ -92,7 +92,7 @@ Scenario Outline: Login with valid email and invalid password                   
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should get a proper warning message about credentails mismatch&amp#27;[0m         &amp#27;[90m# stepdefinitions.Login.User_should_get_a_proper_warning_message_about_credentails_mismatch()&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Login with invalid email and valid password" classname="Login Functionality" time="4.156">
+  <testcase name="Login with invalid email and valid password" classname="Login Functionality" time="4.122">
     <system-out><![CDATA[
 @all
 Scenario Outline: Login with invalid email and valid password                           &amp#27;[90m# src/test/resourcess/features/Login.feature:43&amp#27;[0m
@@ -103,7 +103,7 @@ Scenario Outline: Login with invalid email and valid password                   
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should get a proper warning message about credentails mismatch&amp#27;[0m              &amp#27;[90m# stepdefinitions.Login.User_should_get_a_proper_warning_message_about_credentails_mismatch()&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Login without providing any credentials" classname="Login Functionality" time="3.638">
+  <testcase name="Login without providing any credentials" classname="Login Functionality" time="3.879">
     <system-out><![CDATA[
 @all
 Scenario: Login without providing any credentials                          &amp#27;[90m# src/test/resourcess/features/Login.feature:46&amp#27;[0m
@@ -112,97 +112,6 @@ Scenario: Login without providing any credentials                          &amp#
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser dont enter password into password feild&amp#27;[0m                         &amp#27;[90m# stepdefinitions.Login.User_dont_enter_password_into_password_feild()&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on Login button&amp#27;[0m                                          &amp#27;[90m# stepdefinitions.Login.User_clicks_on_Login_button()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should get a proper warning message about credentails mismatch&amp#27;[0m &amp#27;[90m# stepdefinitions.Login.User_should_get_a_proper_warning_message_about_credentails_mismatch()&amp#27;[0m
-]]></system-out>
-  </testcase>
-  <testcase name="User creates an account with mandatory feilds" classname="Register functionality" time="4.382">
-    <system-out><![CDATA[
-@all
-Scenario: User creates an account with mandatory feilds &amp#27;[90m# src/test/resourcess/features/Register.feature:9&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigates to Register Account page&amp#27;[0m         &amp#27;[90m# stepdefinitions.Register.User_navigates_to_Register_Account_page()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters the details into below feilds&amp#27;[0m        &amp#27;[90m# stepdefinitions.Register.User_enters_the_details_into_below_feilds(io.cucumber.datatable.DataTable)&amp#27;[0m
-    | firstName | Kshitiz                       |
-    | lastName  | Gupta                         |
-    | email     | kshitizgupta.edu124@gmail.com |
-    | telephone | 1234567897                    |
-    | password  | 12345                         |
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser selects privacy policy&amp#27;[0m                       &amp#27;[90m# stepdefinitions.Register.User_selects_privacy_policy()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on Continue button&amp#27;[0m                    &amp#27;[90m# stepdefinitions.Register.User_clicks_on_Continue_button()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser account should get created successfully&amp#27;[0m     &amp#27;[90m# stepdefinitions.Register.User_account_should_get_created_successfully()&amp#27;[0m
-]]></system-out>
-  </testcase>
-  <testcase name="User creates an account with all feilds" classname="Register functionality" time="6.127">
-    <system-out><![CDATA[
-@all
-Scenario: User creates an account with all feilds   &amp#27;[90m# src/test/resourcess/features/Register.feature:22&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigates to Register Account page&amp#27;[0m     &amp#27;[90m# stepdefinitions.Register.User_navigates_to_Register_Account_page()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters the details into below feilds&amp#27;[0m    &amp#27;[90m# stepdefinitions.Register.User_enters_the_details_into_below_feilds(io.cucumber.datatable.DataTable)&amp#27;[0m
-    | firstName | Kshitiz                       |
-    | lastName  | Gupta                         |
-    | email     | kshitizgupta.edu175@gmail.com |
-    | telephone | 1234567897                    |
-    | password  | 12345                         |
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser selects yes for Newsletter&amp#27;[0m               &amp#27;[90m# stepdefinitions.Register.User_selects_yes_for_Newsletter()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser selects privacy policy&amp#27;[0m                   &amp#27;[90m# stepdefinitions.Register.User_selects_privacy_policy()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on Continue button&amp#27;[0m                &amp#27;[90m# stepdefinitions.Register.User_clicks_on_Continue_button()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser account should get created successfully&amp#27;[0m &amp#27;[90m# stepdefinitions.Register.User_account_should_get_created_successfully()&amp#27;[0m
-]]></system-out>
-  </testcase>
-  <testcase name="User creates a duplicate account" classname="Register functionality" time="4.261">
-    <system-out><![CDATA[
-@all
-Scenario Outline: User creates a duplicate account                           &amp#27;[90m# src/test/resourcess/features/Register.feature:49&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigates to Register Account page&amp#27;[0m                              &amp#27;[90m# stepdefinitions.Register.User_navigates_to_Register_Account_page()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters the details into below feilds&amp#27;[0m                             &amp#27;[90m# stepdefinitions.Register.User_enters_the_details_into_below_feilds(io.cucumber.datatable.DataTable)&amp#27;[0m
-    | firstName | Kshitiz                      |
-    | lastName  | Gupta                        |
-    | email     | kshitizgupta.edu13@gmail.com |
-    | telephone | 1234567897                   |
-    | password  | 12345                        |
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enter duplicate email &amp#27;[0m&amp#27;[32m&amp#27;[1mkshitizgupta.edu13@gmail.com&amp#27;[0m&amp#27;[32m in email feild&amp#27;[0m &amp#27;[90m# stepdefinitions.Register.User_enter_duplicate_email_in_email_feild(java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser selects yes for Newsletter&amp#27;[0m                                        &amp#27;[90m# stepdefinitions.Register.User_selects_yes_for_Newsletter()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser selects privacy policy&amp#27;[0m                                            &amp#27;[90m# stepdefinitions.Register.User_selects_privacy_policy()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on Continue button&amp#27;[0m                                         &amp#27;[90m# stepdefinitions.Register.User_clicks_on_Continue_button()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should get a proper warning about duplicate email&amp#27;[0m                &amp#27;[90m# stepdefinitions.Register.User_should_get_a_proper_warning_about_duplicate_email()&amp#27;[0m
-]]></system-out>
-  </testcase>
-  <testcase name="User creates an account without filling any details" classname="Register functionality" time="4.531">
-    <system-out><![CDATA[
-@all
-Scenario: User creates an account without filling any details              &amp#27;[90m# src/test/resourcess/features/Register.feature:52&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigates to Register Account page&amp#27;[0m                            &amp#27;[90m# stepdefinitions.Register.User_navigates_to_Register_Account_page()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser dont enter any details into feilds&amp#27;[0m                             &amp#27;[90m# stepdefinitions.Register.User_dont_enter_any_details_into_feilds()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on Continue button&amp#27;[0m                                       &amp#27;[90m# stepdefinitions.Register.User_clicks_on_Continue_button()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should get a proper warning messages for every mandatory feild&amp#27;[0m &amp#27;[90m# stepdefinitions.Register.User_should_get_a_proper_warning_messages_for_every_mandatory_feild()&amp#27;[0m
-]]></system-out>
-  </testcase>
-  <testcase name="User searches for a valid product" classname="Search functionality" time="2.718">
-    <system-out><![CDATA[
-@all
-Scenario Outline: User searches for a valid product             &amp#27;[90m# src/test/resourcess/features/Search.feature:14&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser opens the Application&amp#27;[0m                              &amp#27;[90m# stepdefinitions.Search.User_opens_the_Application()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters valid product &amp#27;[0m&amp#27;[32m&amp#27;[1mHP&amp#27;[0m&amp#27;[32m into Search box feild&amp#27;[0m       &amp#27;[90m# stepdefinitions.Search.User_enters_valid_product_into_Search_box_feild(java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on Search button&amp#27;[0m                              &amp#27;[90m# stepdefinitions.Search.User_clicks_on_Search_button()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should get valid product displayed in search result&amp#27;[0m &amp#27;[90m# stepdefinitions.Search.User_should_get_valid_product_displayed_in_search_result()&amp#27;[0m
-]]></system-out>
-  </testcase>
-  <testcase name="User searches for a invalid product" classname="Search functionality" time="2.77">
-    <system-out><![CDATA[
-@all
-Scenario Outline: User searches for a invalid product          &amp#27;[90m# src/test/resourcess/features/Search.feature:23&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser opens the Application&amp#27;[0m                             &amp#27;[90m# stepdefinitions.Search.User_opens_the_Application()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters invalid product &amp#27;[0m&amp#27;[32m&amp#27;[1mHonda&amp#27;[0m&amp#27;[32m into Search box feild&amp#27;[0m &amp#27;[90m# stepdefinitions.Search.User_enters_invalid_product_into_Search_box_feild(java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on Search button&amp#27;[0m                             &amp#27;[90m# stepdefinitions.Search.User_clicks_on_Search_button()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should get a message about no product matching&amp#27;[0m     &amp#27;[90m# stepdefinitions.Search.User_should_get_a_message_about_no_product_matching()&amp#27;[0m
-]]></system-out>
-  </testcase>
-  <testcase name="User searches without any product" classname="Search functionality" time="2.743">
-    <system-out><![CDATA[
-@all
-Scenario: User searches without any product                  &amp#27;[90m# src/test/resourcess/features/Search.feature:26&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser opens the Application&amp#27;[0m                           &amp#27;[90m# stepdefinitions.Search.User_opens_the_Application()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser dont enter any product name into Seach box feild&amp#27;[0m &amp#27;[90m# stepdefinitions.Search.User_dont_enter_any_product_name_into_Seach_box_feild()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on Search button&amp#27;[0m                           &amp#27;[90m# stepdefinitions.Search.User_clicks_on_Search_button()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should get a message about no product matching&amp#27;[0m   &amp#27;[90m# stepdefinitions.Search.User_should_get_a_message_about_no_product_matching()&amp#27;[0m
 ]]></system-out>
   </testcase>
 </testsuite>
