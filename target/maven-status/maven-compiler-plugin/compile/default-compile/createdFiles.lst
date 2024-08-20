@@ -1,10 +1,10 @@
 pages\SearchResultPage.class
 utilites\CommonUtils.class
-pages\AccountSuccessPage.class
 pages\LoginPage.class
 pages\HomePage.class
-pages\SearchPage.class
-pages\AccountPage.class
 pages\RegisterPage.class
 utilites\Utilites.class
 utilites\ElementUtils.class
+pages\AccountSuccessPage.class
+pages\SearchPage.class
+pages\AccountPage.class
